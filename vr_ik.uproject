@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{F1D481FF-4A1A-5EDC-35D8-FD96012DB15A}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "vr_ik",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SteamController",
+			"Enabled": true
+		}
+	]
+}
