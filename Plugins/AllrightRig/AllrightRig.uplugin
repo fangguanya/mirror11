@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.3",
+	"FriendlyName": "AllrightRig",
+	"Description": "Character rigging and animation system",
+	"Category": "Animation",
+	"CreatedBy": "Alexander Shatalov",
+	"CreatedByURL": "http://alexallright.com/",
+	"DocsURL": "http://alexallright.com/allrightrig/doc/",
+	"MarketplaceURL": "",
+	"SupportURL": "http://alexallright.com/contact/",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": 
+	[
+		{
+			"Name": "ARigRuntime",
+      		"Type": "Runtime",
+      		"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "ARigEditor",
+			"Type": "Editor"
+		}
+	]
+}
