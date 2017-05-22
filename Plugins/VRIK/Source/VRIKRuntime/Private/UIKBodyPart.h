@@ -15,10 +15,10 @@ class UIKBodyPart : public UObject
 	GENERATED_UCLASS_BODY()
 
 public:
-	virtual void PreSolve();
-	virtual void Write(TArray<FVector> RefPositions, TArray<FQuat> RefQuads);
-	virtual void ApplyOffsets();
-	virtual void ResetOffsets();
+	virtual void PreSolve() {}
+	virtual void Write(TArray<FVector> RefPositions, TArray<FQuat> RefQuads) {}
+	virtual void ApplyOffsets() {}
+	virtual void ResetOffsets() {}
 
 protected:
 	virtual void OnRead(TArray<FVector> InPositions, TArray<FQuat> InQuads, bool HasChest, bool HasNeck, bool HasShoulders, bool HasToes, int32 RootIndex, int32 Index);
