@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{F1D481FF-4A1A-5EDC-35D8-FD96012DB15A}",
+	"EngineAssociation": "4.15",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -13,6 +13,10 @@
 	"Plugins": [
 		{
 			"Name": "SteamController",
+			"Enabled": true
+		},
+		{
+			"Name": "AllrightRig",
 			"Enabled": true
 		}
 	]
